@@ -508,6 +508,7 @@ footer {
 	}
 
 	.productImg {
+		align-items: center;
 		width: 80%;
 	}
 
