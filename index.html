@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="productos.css" />
 		<link rel="stylesheet" href="whatsapp.css" />
+		<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+		<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 		<title>ALTAS ZAPAS</title>
 	</head>
 
@@ -26,11 +28,11 @@
 				</div>
 				<div class="navItem">
 					<div class="navBottom">
-						<h3 class="menuItem">NIKE</h3>
-						<h3 class="menuItem">ADIDAS</h3>
-						<h3 class="menuItem">VANS</h3>
-						<h3 class="menuItem">CRATER</h3>
-						<h3 class="menuItem">HIPPIE</h3>
+						<a class="menuItem">NIKE</a>
+						<a class="menuItem">ADIDAS</a>
+						<a class="menuItem">VANS</a>
+						<a class="menuItem">CONVERSE</a>
+						<a class="menuItem">CONTACTO</a>
 					</div>
 				</div>
 				<div class="navItem">
@@ -52,53 +54,47 @@
 
 		<!-- SLIDER INICIO  -->
 		<div class="slider">
-			<div class="sliderWrapper">
-				<div class="sliderItem">
-					<img src="./img/air.png" alt="" class="sliderImg" />
-					<div class="sliderBg"></div>
-					<h1 class="sliderTitle">AIR FORCE NEW SEASON</h1>
-					<h2 class="sliderPrice">$119</h2>
-					<a href="#product">
-						<button class="buyButton">BUY NOW!</button>
-					</a>
-				</div>
-				<div class="sliderItem">
-					<img src="./img/jordan.png" alt="" class="sliderImg" />
-					<div class="sliderBg"></div>
-					<h1 class="sliderTitle">AIR JORDAN NEW SEASON</h1>
-					<h2 class="sliderPrice">$149</h2>
-					<a href="#product">
-						<button class="buyButton">BUY NOW!</button>
-					</a>
-				</div>
-				<div class="sliderItem">
-					<img src="./img/blazer.png" alt="" class="sliderImg" />
-					<div class="sliderBg"></div>
-					<h1 class="sliderTitle">BLAZER NEW SEASON</h1>
-					<h2 class="sliderPrice">$109</h2>
+			<ul>
+				<li>	
+					<div  class="sliderImg"><img src="./img/nike_jordan_blancas.png" alt=""  style="max-width: 75%;height: auto;"/></div>
+					<div class="sector_texto">
+					<h1 class="sliderTitle">NIKE JORDAN</h1>
+					<h2 class="sliderPrice">$6.999</h2>
 					<a href="#product">
 						<button class="buyButton">COMPRAR!</button>
-					</a>
-				</div>
-				<div class="sliderItem">
-					<img src="./img/crater.png" alt="" class="sliderImg" />
-					<div class="sliderBg"></div>
-					<h1 class="sliderTitle">CRATER NEW SEASON</h1>
-					<h2 class="sliderPrice">$129</h2>
-					<a href="#product">
-						<button class="buyButton">COMPRAR!</button>
-					</a>
-				</div>
-				<div class="sliderItem">
-					<img src="./img/hippie.png" alt="" class="sliderImg" />
-					<div class="sliderBg"></div>
-					<h1 class="sliderTitle">HIPPIE NEW SEASON</h1>
-					<h2 class="sliderPrice">$99</h2>
-					<a href="#product">
-						<button class="buyButton">COMPRAR!</button>
-					</a>
-				</div>
-			</div>
+					</a></div>
+</li>
+<li>	
+	<div  class="sliderImg"><img src="./img/nike_jordan_nyr.png" alt=""  style="max-width: 65%;height: auto;"/></div>
+	<div class="sector_texto">
+	<h1 class="sliderTitle">NIKE JORDAN</h1>
+	<h2 class="sliderPrice">$6.999</h2>
+	<a href="#product">
+		<button class="buyButton">COMPRAR!</button>
+	</a></div>
+</li>
+
+<li>	
+	<div  class="sliderImg"><img src="./img/nike_jordan_negra.png" alt=""  style="max-width: 75%;height: auto;"/></div>
+	<div class="sector_texto">
+	<h1 class="sliderTitle">NIKE JORDAN</h1>
+	<h2 class="sliderPrice">$6.999</h2>
+	<a href="#product">
+		<button class="buyButton">COMPRAR!</button>
+	</a></div>
+</li>
+<li>	
+	<div  class="sliderImg"><img src="./img/botas_nike_roj.png" alt=""  style="max-width: 70%;height: auto;"/></div>
+	<div class="sector_texto">
+	<h1 class="sliderTitle">NIKE JORDAN</h1>
+	<h2 class="sliderPrice">$6.999</h2>
+	<a  href="#product">
+		<button class="buyButton">COMPRAR!</button>
+	</a></div>
+</li>
+			</ul>
+				
+				
 		</div>
 
 		<!-- INFORMACION DE LAS COMPRAS -->
@@ -134,22 +130,47 @@
 		</div>
 		<!-- PRODUCTOS DEL SLIDE INICIAL -->
 		<div class="product" id="product">
-			<img
-				src="https://http2.mlstatic.com/D_NQ_NP_986069-MLA53455676233_012023-W.jpg"
-				alt=""
-				class="productImg" />
+			<div class="swiffy-slider">
+				<ul class="slider-container">
+				
+					
+					<li><img src="img/nike_jordan_negra.png" style="max-width: 40%;height: auto;"  class="sliderImg">
+						</li>
+					<li><img src="img/nike_jordan_nyr.png" style="max-width: 40%;height: auto;"  class="sliderImg">
+						</li>
+					<li><img src="img/botas_nike_ama.png" style="max-width: 40%;height: auto;"  class="sliderImg">
+						></li>
+					<li><img src="img/botas_nike_roj.png" style="max-width: 40%;height: auto; "  class="sliderImg">
+					</li>
+				</ul>
+			
+				<button type="button" class="slider-nav"></button>
+				<button type="button" class="slider-nav slider-nav-next"></button>
+			
+				
+			</div>
 			<div class="productDetails">
-				<h1 class="productTitle">AIR FORCE</h1>
-				<h2 class="productPrice">$199</h2>
+				<h1 class="productTitle">Nike Jordan</h1>
+				<h2 class="productPrice">$6.999</h2>
 				<p class="productDesc"
-					>Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias
-					assumenda dolorum doloremque sapiente aliquid aperiam.</p
+					>Replicas de las Nike Jordan, Excelente Calidad!!!</p
 				>
 				<div class="colors">
-					<div class="color"></div>
-					<div class="color"></div>
+					<div class="Negro y Blanco"></div>
+					<div class="Negro y Rojo"></div>
+					<div class="Blanca"></div>
+					<div class="Roja y Blanca"></div>
+					<div class="Amarilla y Blanca"></div>
+
 				</div>
 				<div class="sizes">
+					<div class="size">35</div>
+					<div class="size">36</div>
+					<div class="size">37</div>
+					<div class="size">38</div>
+					<div class="size">39</div>
+					<div class="size">40</div>
+					<div class="size">41</div>
 					<div class="size">42</div>
 					<div class="size">43</div>
 					<div class="size">44</div>
